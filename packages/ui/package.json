@@ -1,9 +1,13 @@
 {
   "name": "@aginrocks/ui",
   "version": "0.1.0",
-  "main": "index.ts",
   "packageManager": "yarn@4.6.0",
-  "types": "index.d.ts",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "tsc",
     "prepare": "tsc"
@@ -14,5 +18,8 @@
   },
   "devDependencies": {
     "typescript": "^5.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

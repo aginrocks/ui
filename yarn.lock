@@ -17,7 +17,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@aginrocks/ui@workspace:packages/ui":
+"@aginrocks/ui@workspace:^, @aginrocks/ui@workspace:packages/ui":
   version: 0.0.0-use.local
   resolution: "@aginrocks/ui@workspace:packages/ui"
   dependencies:
@@ -4408,6 +4408,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "example@workspace:apps/example"
   dependencies:
+    "@aginrocks/ui": "workspace:^"
     "@babel/core": "npm:^7.25.2"
     "@expo/vector-icons": "npm:^14.0.2"
     "@react-navigation/native": "npm:^7.0.14"
