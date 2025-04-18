@@ -1,13 +1,16 @@
 {
   "expo": {
-    "scheme": "acme",
+    "scheme": "agin-ui-example",
     "plugins": [
       "expo-router"
     ],
     "name": "example",
     "slug": "example",
     "ios": {
-      "bundleIdentifier": "com.anonymous.example"
+      "bundleIdentifier": "rocks.agin.ui.example"
+    },
+    "android": {
+      "package": "rocks.agin.ui.example"
     }
   }
 }
